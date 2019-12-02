@@ -6,10 +6,11 @@
     margin: 0;
 }
 
+
 header {
     height: 100px;
     width: 100%;
-    background-color: gray;
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,11 +29,14 @@ header {
 main {
     height: 600px;
     width: 100%;
-    background-color: lightgray;
+    background-color: black;
     padding-top: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
+    color: white;
+    background-image: url(abstract-music-notes-wallpapers-only-good-pictures.jpg);
+   
 
 }
 
@@ -106,7 +110,7 @@ main {
 footer {
     height: 110px;
     width: 100%;
-    background-color: gray;
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
