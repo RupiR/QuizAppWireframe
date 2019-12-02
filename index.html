@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="quiz.js"></script>
+    <title>90's Music Quiz App</title>
+</head>
+<body>
+    <header>
+        <div class="welcome">
+            <h4>Welcome To The 90's Music Quiz App!</h4>
+        </div>
+    </header>
+    <main>
+
+<!--If you would like to see the pages in action, please remove hidden class from each initial div and simply add the hidden class to the pages you don't want to see-->
+
+<!--This is my first page-->
+        <div class="intropage, hidden">
+            <h3>In this quiz app, you will answer 10 random multiple choice questions about 90's music.</h3>
+            <button>Start Quiz</button>
+        </div>
+<!--This is my second page-->
+        <div class="questionspage, hidden">
+            <h2>Question 1 out of 10</h2>
+            <p>Ray of Light was the title track of what singer's 1998 CD, her first studio album in four years?</p>
+            <div class="answerspage">
+                <div><input type="radio" name="answer1" value="Cher"> Cher</div>
+                <div><input type="radio" name="answer2" value="Madonna"> Madonna</div>
+                <div><input type="radio" name="answer3" value="Aretha Franklin"> Aretha Franklin</div>
+                <div><input type="radio" name="answer4" value="Annie Lennox"> Annie Lennox</div>
+            </div>
+            <button>Submit</button>
+        </div>
+<!--This is my final page-->
+        <div class="finalpage">
+                    <h3>Excellent! You've completed the quiz!</h3>
+                    <h2>Your score: 8/10</h2>
+                    <button>Retake Quiz</button>
+        </div>
+    </main>
+    <footer>Created by Rupali R.</footer>
+    
+</body>
+</html>
